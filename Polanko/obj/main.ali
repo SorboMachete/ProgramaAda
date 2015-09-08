@@ -1,0 +1,59 @@
+V "GNAT Lib v2015"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentiumpro
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		e7659896 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20150518132148 3ffc8e18 ada%s
+D a-except.ads		20150518132148 5250cb69 ada.exceptions%s
+D a-inteio.ads		20150518132148 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20150518132148 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20150518132148 119b8fb3 ada.streams%s
+D a-tags.ads		20150518132148 dc4d0634 ada.tags%s
+D a-textio.ads		20150518132148 386df5d4 ada.text_io%s
+D a-tiinio.ads		20150518132148 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20150518132148 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20150518132148 6033a23f interfaces%s
+D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
+D main.adb		20150908014050 2943e4e6 main%b
+D system.ads		20150518132150 f4ce8c3a system%s
+D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
+D s-exctab.ads		20150518132148 54135002 system.exception_table%s
+D s-ficobl.ads		20150518132148 078245e4 system.file_control_block%s
+D s-parame.ads		20150518132150 7e2a0d7f system.parameters%s
+D s-soflin.ads		20150518132150 aa763b52 system.soft_links%s
+D s-stache.ads		20150518132150 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150518132150 fa0a3617 system.standard_library%s
+D s-stoele.ads		20150518132150 2dc34a04 system.storage_elements%s
+D s-traent.ads		20150518132150 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20150518132150 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20150518132150 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 1r23 2r6 2r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 12|2w10 2r35
+X 7 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 1r27
+263U14*Put_Line 12|8s4 9s7 10s10 12s16 15s25 17s31 18s1 19s10 21s16 24s25
+. 26s31 27s1 28s10 30s16 33s25 35s31 37s4 39s7 41s13 44s22 46s28 48s7
+X 8 a-tiinio.ads
+56U14*Get 12|11s13[3|18] 13s19[3|18] 20s13[3|18] 22s19[3|18] 29s13[3|18]
+. 31s19[3|18] 40s10[3|18] 42s16[3|18]
+66U14*Put 12|16s28[3|18] 25s28[3|18] 34s28[3|18] 45s25[3|18]
+X 12 main.adb
+3U11*Main 3b11 51l5 51t9
+5i4 Num1{integer} 11m17 14r33 20m17 23r33 29m17 32r33 40m14 43r30
+5i9 Num2{integer} 13m23 14r38 22m23 23r38 31m23 32r38 38r7 42m20 43r35
+5i14 Resultado{integer} 14m22 16r32 23m22 25r32 32m22 34r32 43m19 45r29
+
